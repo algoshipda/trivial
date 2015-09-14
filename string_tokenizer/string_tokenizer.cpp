@@ -13,5 +13,3 @@ vector<string> tokenizer(const string& s, const string& delim=" \n")
 	}
 	return ret;
 }
-
-int main(){}
