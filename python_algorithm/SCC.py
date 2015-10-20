@@ -26,7 +26,7 @@ class SCC:
 		for curNode in xrange(self.vertexCount):
 			self.DFS1(curNode)
 		self.visited = [0] * self.vertexCount
-		self.transpose(self.adjacencyList)
+		self.transpose()
 		for curNode in reversed(self.stack):
 			if not self.visited[curNode]:
 				self.DFS2(curNode,sccCount)
@@ -34,10 +34,10 @@ class SCC:
 		del self.visited
 		del self.stack
 
-	def transpose(self, adjacencyList):
+	def transpose(self):
 		rev = [[] for i in xrange(self.vertexCount)]
 		for i in xrange(self.vertexCount):
-			for x in adjacencyList[i]:
+			for x in self.adjacencyList[i]:
 				rev[x].append(i)
 		self.adjacencyList = rev
 
