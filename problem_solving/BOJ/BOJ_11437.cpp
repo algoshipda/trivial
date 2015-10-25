@@ -3,7 +3,7 @@ using namespace std;
 
 int n,m;
 vector<int> adj[100005];
-int p[19][100005];
+int p[21][100005];
 int depth[100005];
 
 void dfs(int cur,int d,int parent)
