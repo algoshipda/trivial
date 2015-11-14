@@ -72,28 +72,28 @@ int main()
                 }
             }
         }
-		for(int i=1;i<=n;++i){
-			for(int j=0;j<acnt[i] && !chk[i];++j){
-				for(int k=j+1;k<acnt[i];++k){
-					if(cost[i][j]+cost[i][k]==dist[adj[i][j]][adj[i][k]]){
-						int valid=1;
-						for(int l=0;l<acnt[adj[i][j]];++l){
-							int nxt=adj[adj[i][j]][l];
-							if(nxt==i)continue;
-							if(cost[i][j]+cost[i][k]==cost[adj[i][j]][l]+dist[nxt][adj[i][k]]){
-								valid=0;
-								break;
-							}
-						}
-						if(valid){
-							chk[i]=1;
-							++ans;
+	for(int i=1;i<=n;++i){
+		for(int j=0;j<acnt[i] && !chk[i];++j){
+			for(int k=j+1;k<acnt[i];++k){
+				if(cost[i][j]+cost[i][k]==dist[adj[i][j]][adj[i][k]]){
+					int valid=1;
+					for(int l=0;l<acnt[adj[i][j]];++l){
+						int nxt=adj[adj[i][j]][l];
+						if(nxt==i)continue;
+						if(cost[i][j]+cost[i][k]==cost[adj[i][j]][l]+dist[nxt][adj[i][k]]){
+							valid=0;
 							break;
 						}
+					}
+					if(valid){
+						chk[i]=1;
+						++ans;
+						break;
 					}
 				}
 			}
 		}
+	}
         printf("Case #%d\n",tc);
         printf("%d ",ans);
         for(int i=1;i<=n;++i)if(chk[i])printf("%d ",i);
