@@ -3,7 +3,6 @@ using namespace std;
 const int INF=1e9;
 int dp[10010][10];
 int x[20005];
-int psum[20005];
 int main()
 {
 	int t;
