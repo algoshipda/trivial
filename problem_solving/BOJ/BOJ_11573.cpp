@@ -1,10 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//R>Y Y>B B>R
 int a,b,c;
 double dp[105][105][105][3];
-			// R     Y      B
+
 double pr(int x, int y, int z)
 {
 	return (double)x/z*y/(z-1)*2;
