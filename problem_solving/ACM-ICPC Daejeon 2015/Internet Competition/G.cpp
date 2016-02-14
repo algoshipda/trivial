@@ -40,8 +40,8 @@ int main()
 		}
 		for(int i=0;i<m;++i){
 			int x;
-            scanf("%d",&x);
-            printf("%d %d\n",ax[x],ay[x]);
+			scanf("%d",&x);
+			printf("%d %d\n",ax[x],ay[x]);
 		}
 	}
 
