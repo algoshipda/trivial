@@ -51,7 +51,11 @@ class Solver {
 
 	long signedArea(Point a, Point b, Point c)
 	{
+<<<<<<< HEAD
         return (long)(b.x - a.x) * (c.y - a.y) - (long)(b.y - a.y) * (c.x - a.x);
+=======
+		return (long)(b.x - a.x) * (c.y - a.y) - (long)(b.y - a.y) * (c.x - a.x);
+>>>>>>> 69f8cdaad39550947bfb08713bbea2d79fbdf2ae
 	}
 	static class Point
 	{
