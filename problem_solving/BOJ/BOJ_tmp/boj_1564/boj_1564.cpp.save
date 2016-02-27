@@ -1,0 +1,17 @@
+#include <cstdio>
+
+int main()
+{
+        int n,mod = 10000000;
+        long long k = 1;
+        scanf("%d",&n);
+        for(int i=1;i<=n;++i){
+                k*=i;
+                while(k%10==0){
+                        k/=10;
+                }
+                k = k%mod;
+                printf("%lld\n",k);
+        }
+        printf("%lld\n",k);
+}
