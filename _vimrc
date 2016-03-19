@@ -30,9 +30,9 @@ endfunction
 
 set guifont=Consolas:h18
 colorscheme evening
-set ts=4
-set shiftwidth=4
-set sts=4
+set ts=2
+set sw=2
+set sts=2
 set expandtab
 set nu
 set ai
