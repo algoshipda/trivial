@@ -36,18 +36,11 @@ set sts=2
 set expandtab
 set nu
 set ai
-set nocompatible
 set backspace=start,indent,eol
 set hi=1000
 set encoding=utf-8
 setglobal fileencoding=utf-8
 set ru
-set noet
-
-set magic
-
-set sol
-set scs
 
 set smartindent
 
