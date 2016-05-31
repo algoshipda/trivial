@@ -36,14 +36,10 @@ set sts=2
 set expandtab
 set nu
 set ai
+set si
 set backspace=start,indent,eol
 set hi=1000
 set encoding=utf-8
 setglobal fileencoding=utf-8
 set ru
 
-set smartindent
-
-set hlsearch
-
-set mouse=a
