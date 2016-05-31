@@ -40,4 +40,5 @@ set backspace=start,indent,eol
 set hi=1000
 setglobal fileencoding=utf-8
 set ru
-
+highlight ColorColumn ctermbg=gray
+set colorcolumn=80
