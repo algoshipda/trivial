@@ -28,8 +28,7 @@ function MyDiff()
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
 
-set guifont=Consolas:h18
-colorscheme evening
+set guifont=consolas:h9
 set ts=2
 set sw=2
 set sts=2
@@ -39,7 +38,6 @@ set ai
 set si
 set backspace=start,indent,eol
 set hi=1000
-set encoding=utf-8
 setglobal fileencoding=utf-8
 set ru
 
