@@ -16,7 +16,7 @@ typedef vector<int> Row;
 const int MOD = 1e9 + 7;
 const int INF = 1e9;
 const lld LINF = 1e18;
-
+const double PI = 2.0 * acos(0.0);
 
 int main() {
 
