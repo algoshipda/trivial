@@ -1,5 +1,7 @@
 #include <cstdio>
 #include <cstdlib>
+#include <cassert>
+#include <cstring>
 #include <iostream>
 #include <cmath>
 #include <deque>
