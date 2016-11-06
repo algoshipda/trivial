@@ -15,7 +15,7 @@
 
 #define mp(a, b) make_pair((a), (b))
 #define pb(a) push_back((a))
-#define pf(a) push_font((a))
+#define pf(a) push_front((a))
 #define rb() pop_back()
 #define rf() pop_front()
 #define sz(a) ((int)a.size())
