@@ -21,7 +21,7 @@
 #define sz(a) ((int)a.size())
 
 using namespace std;
- 
+
 typedef long long lld;
 typedef pair<int, int> pii;
 typedef pair<lld, lld> pll;
